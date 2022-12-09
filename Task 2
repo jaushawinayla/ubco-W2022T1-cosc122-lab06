@@ -6,11 +6,16 @@
         <h1>Task 2</h1>
         <!-- the rest of your code (for Task2) will go inside the script tags -->>
         <script>
-        // name: Jausha Winayla, student number: 64355613
-            var number1 = window.prompt("Enter your first name:");
-            var number2 = window.prompt("Enter your last name:");
-            var result = number1 + " " + number2;
-            window.alert("Your full name is: "+result);
+            var number1 = window.prompt("Enter a number:");
+            var number2 = window.prompt("Enter a number:");
+            var resultNum = parseInt(number1) + parseInt (number2);
+            window.alert(number1 + "+" + number2 + "=" + resultNum);
+
+            var firstname = window.prompt("Your first name is:");
+            var lastname = window.prompt("Your last name is:");
+            var resultName = firstname + " " + lastname;
+            window.alert("Your full name is:"+resultName);
+
         </script>
     </body>
 </html>
