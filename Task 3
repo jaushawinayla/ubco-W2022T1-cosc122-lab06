@@ -15,6 +15,7 @@
         document.write("Your name is:"+number1);
         document.write("<br/>");
         document.write("Your current age is "+year);
+
         </script>
     </body>
 </html>
