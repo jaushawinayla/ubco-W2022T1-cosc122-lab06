@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>COSC 122 Index Page for Task 2</title>
+    </head>
+    <body>
+        <h1>Task 2</h1>
+        <!-- the rest of your code (for Task2) will go inside the script tags -->>
+        <script>
+        // name: Jausha Winayla, student number: 64355613
+            var number1 = window.prompt("Enter your first name:");
+            var number2 = window.prompt("Enter your last name:");
+            var result = number1 + " " + number2;
+            window.alert("Your full name is: "+result);
+        </script>
+    </body>
+</html>
