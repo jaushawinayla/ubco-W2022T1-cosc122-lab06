@@ -10,11 +10,13 @@
         
         var number1 = window.prompt("Enter your name:");
         var number2 = window.prompt("Enter your year of birth:");
-        var number2 = new Date();
-        var year = number2.getFullYear();
+        var d = new Date();
+        var year = d.getFullYear(number2);
+        var age = year - number2;
+
         document.write("Your name is:"+number1);
         document.write("<br/>");
-        document.write("Your current age is "+year);
+        document.write("Your current age is "+age);
 
         </script>
     </body>
